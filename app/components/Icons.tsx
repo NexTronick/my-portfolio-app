@@ -44,7 +44,7 @@ export default function Icons() {
             className="text-cyan hover:text-cyan-dark my-10 hover:-translate-y-1"
           />
         </a>
-        <a href="mailto:natrajpadwani07@gmail.com" className="max-h-10">
+        <a href="mailto:natrajpadwani.contact@gmail.com" className="max-h-10">
           <MdContactPage
             size="30"
             className="text-cyan hover:text-cyan-dark mt-10 mb-4 hover:-translate-y-1"
