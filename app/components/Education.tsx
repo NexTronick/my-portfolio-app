@@ -1,7 +1,7 @@
 import data from "../api/Education/data";
 export default function Education() {
   return (
-    <div className="text-gray flex justify-start pl-3 pt-20 w-1/2 mx-auto">
+    <div className="text-gray flex justify-start pl-3 pt-20 w-1/2 mx-auto sm:text-xs">
       <ol className="relative border-l border-gray">
         {data.map((d) => {
           return (
@@ -12,7 +12,9 @@ export default function Education() {
               <time className="mb-1 text-sm  leading-none text-gray-400 dark:text-gray-500">
                 {d.time}
               </time>
-              <h3 className="text-lg font-semibold text-cyan ">{d.title}</h3>
+              <h3 className="text-lg font-semibold text-cyan sm:text-md">
+                {d.title}
+              </h3>
               <h4 className="text-md font-semibold text-gray-100 ">
                 {d.qualification}
               </h4>

@@ -118,7 +118,24 @@ a {
   color: inherit;
   text-decoration: none;
 }
+#d-icons {
+  visibility: visible;
+}
+#m-icons {
+  visibility: hidden;
+}
 
+@media (max-width: 767px) {
+  #d-icons {
+    visibility: hidden;
+  }
+  #m-icons {
+    visibility: visible;
+  }
+  footer {
+    width: 100vw !important;
+  } 
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

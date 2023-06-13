@@ -1,8 +1,9 @@
 import { BsTwitter, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { MdContactPage } from "react-icons/md";
+
 export default function Icons() {
   return (
-    <div className="fixed z-30 bottom-0" style={{ left: "5%" }}>
+    <div className={"fixed z-30 bottom-0"} id="d-icons" style={{ left: "5%" }}>
       <div>
         <a
           href="https://github.com/NexTronick"

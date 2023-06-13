@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import IconsMobile from "./IconsMobile";
 
 export default function Navigation({ font_lobster_two = "" }) {
   const [navbar, setNavbar] = useState(false);
@@ -109,6 +110,13 @@ export default function Navigation({ font_lobster_two = "" }) {
                       Resume
                     </Link>
                   </li>
+                  {!navbar ? (
+                    ""
+                  ) : (
+                    <li className="">
+                      <IconsMobile />
+                    </li>
+                  )}
                 </ul>
               </div>
             </div>
