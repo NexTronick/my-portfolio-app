@@ -1,7 +1,10 @@
 import data from "../api/Experience/data";
 export default function Experience() {
   return (
-    <div className="text-gray flex justify-start pl-3 pt-20 w-1/2 mx-auto">
+    <div
+      className="text-gray flex justify-start pl-3 pt-20 w-1/2 mx-auto"
+      id="exp"
+    >
       <ol className="relative border-l border-gray">
         {data.map((d) => {
           return (

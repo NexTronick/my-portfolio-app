@@ -1,7 +1,10 @@
 import data from "../api/Education/data";
 export default function Education() {
   return (
-    <div className="text-gray flex justify-start pl-3 pt-20 w-1/2 mx-auto sm:text-xs">
+    <div
+      className="text-gray flex justify-start pl-3 pt-20 w-1/2 mx-auto sm:text-xs"
+      id="edu"
+    >
       <ol className="relative border-l border-gray">
         {data.map((d) => {
           return (

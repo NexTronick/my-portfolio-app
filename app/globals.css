@@ -134,7 +134,31 @@ a {
   }
   footer {
     width: 100vw !important;
-  } 
+  }
+  #about-container,
+  #exp,
+  .seperators,
+  #edu,
+  #proj {
+    width: 90%;
+    margin: auto;
+  }
+  #about-container #text-div {
+    text-align: left !important;
+    width: 90% !important;
+    margin: auto;
+    display: inline !important;
+    transform: translate(-4, 0);
+  }
+  #about-container h1 {
+    font-size: 28px !important;
+  }
+  #about-container h2 {
+    font-size: 18px !important;
+  }
+  .fill-div {
+    height: 180px !important;
+  }
 }
 @media (prefers-color-scheme: dark) {
   html {

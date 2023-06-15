@@ -1,7 +1,10 @@
 import data from "../api/Projects/data";
 export default function Projects() {
   return (
-    <div className="text-gray flex justify-start pl-3 pt-20 w-1/2 mx-auto">
+    <div
+      className="text-gray flex justify-start pl-3 pt-20 w-1/2 mx-auto"
+      id="proj"
+    >
       <div className="relative">
         {data.map((d) => {
           return (
@@ -19,7 +22,7 @@ export default function Projects() {
                 <p>{d.description}</p>
               </div>
               <br />
-              <div className="h-20"></div>
+              <div className="h-20 fill-div"></div>
             </div>
           );
         })}

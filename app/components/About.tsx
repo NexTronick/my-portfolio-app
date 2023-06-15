@@ -12,6 +12,7 @@ export default function About() {
     <div
       style={{ minHeight: "92vh" }}
       className="max-w-4xl mx-auto overflow-hidden w-3/4"
+      id="about-container"
     >
       <div style={{ minHeight: "30vh" }}></div>
       <div className="md:flex">
@@ -23,7 +24,7 @@ export default function About() {
           />
           <div className="absolute bottom-0 left-0 right-0 top-0 h-72 w-full object-cover md:h-full md:w-72 overflow-hidden bg-gradient-to-r from-gray via-cyan to-cyan-dark opacity-0 transition duration-300 ease-in-out hover:opacity-70"></div>
         </div>
-        <div className="p-8">
+        <div className="p-8" id="text-div">
           <h1 className="text-4xl text-cyan">Natraj Niranjan Padwani</h1>
           <h2 className="text-xl">Software Engineer & Web Developer</h2>
           <br />

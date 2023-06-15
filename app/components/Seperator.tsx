@@ -1,7 +1,7 @@
 "use client";
 export default function Seperator({ id = "", text = "" }) {
   return (
-    <div id={id} className="w-1/2 mx-auto text-cyan-dark pt-20">
+    <div id={id} className="w-1/2 mx-auto text-cyan-dark pt-20 seperators">
       <span className="text-2xl">{text}</span>
       <div
         style={{ height: "1px" }}
