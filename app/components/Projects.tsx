@@ -1,32 +1,28 @@
 import data from "../api/Projects/data";
 export default function Projects() {
   return (
-    <div
-      className="text-gray flex justify-start pl-3 pt-20 w-1/2 mx-auto"
-      id="proj"
-    >
-      <div className="relative">
-        {data.map((d) => {
-          return (
-            <div className="my-9 mb-20">
+    <div className="max-w-4xl mx-auto w-3/5" id="proj">
+      {data.map((d, i) => {
+        return (
+          <div className="mt-20 lg:flex proj-con">
+            <div className="w-full">
               <img
+                className="w-full"
                 src={d.image}
                 alt={"Picture of " + d.title}
-                className="float-left min-h-64"
               />
-              <div className="float-right">
-                <h3 className=" text-lg font-semibold text-cyan">{d.title}</h3>
-                <h4 className="text-md font-semibold text-gray-100 ">
-                  {d.type} | {d.developed}
-                </h4>
-                <p>{d.description}</p>
-              </div>
-              <br />
-              <div className="h-20 fill-div"></div>
             </div>
-          );
-        })}
-      </div>
+            <div className="pl-8 pt-3 md:w-3/4" id="text-div">
+              <h1 className="text-xl md:text-2xl text-cyan">{d.title}</h1>
+              <h2 className=" text-base md:text-lg text-gray-100">
+                {d.developed} | {d.type}
+              </h2>
+              <br />
+              <p className="text-gray">{d.shortDesc}</p>
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }

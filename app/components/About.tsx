@@ -14,7 +14,7 @@ export default function About() {
       className="max-w-4xl mx-auto overflow-hidden w-3/4"
       id="about-container"
     >
-      <div style={{ minHeight: "30vh" }}></div>
+      <div style={{ minHeight: "30vh" }} className="about-div-h"></div>
       <div className="md:flex">
         <div className="md:shrink-0 relative">
           <img
