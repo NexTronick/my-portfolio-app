@@ -1,4 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = { useFileSystemPublicRoutes: false };
 
-module.exports = nextConfig
+module.exports = nextConfig;
