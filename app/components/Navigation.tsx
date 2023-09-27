@@ -103,7 +103,7 @@ export default function Navigation({ font_lobster_two = "" }) {
                     }
                   >
                     <Link
-                      href="/resume.pdf"
+                      href="/resume_2.0.pdf"
                       target="_blank"
                       onClick={toggleNavBar}
                     >

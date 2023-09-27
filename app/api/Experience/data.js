@@ -1,6 +1,33 @@
 const Experience = [
   {
-    title: "Part-time - Software Developer/Engineer",
+    title: "CTO",
+    descriptions: [
+      "Conducting technology evaluations and made recommendations for adopting new tools and platforms for start up.",
+      "Implementing best practices and standards for software development, quality assurance, and data management.",
+    ],
+    time: "July 2023 - Present",
+    company: "Zeroot",
+  },
+  {
+    title: "Website Developer (Part-time)",
+    descriptions: [
+      "Developing website using React Framework with Tailwindcss.",
+      "Implementing robust and responsive web design optimized for user experience.",
+    ],
+    time: "June 2023 - Present",
+    company: "Shadani",
+  },
+  {
+    title: "Teacher (Part-time)",
+    descriptions: [
+      "Taught Robot coding and Science to students aged 4-12, utilizing Artec Blocks and Arduino boards for sensor control.",
+      "Covered kindergartens to primary schools.",
+    ],
+    time: "June 2022 - Present",
+    company: "ActiveKids",
+  },
+  {
+    title: "Software Engineer (Part-time)",
     descriptions: [
       "To develop metaverse meeting room.",
       "Meeting room using Unity Engine.",
@@ -11,7 +38,7 @@ const Experience = [
     company: "Technet",
   },
   {
-    title: "Internship - Website Maintenance and Development",
+    title: "Website Maintenance and Development (Internship)",
     descriptions: [
       "Developed Customer Survey, using Laravel Framework",
       "Grasped the knowledge of JXLS library in Java programming language for creating excel template.",
@@ -20,17 +47,6 @@ const Experience = [
     ],
     time: "July 2021 - August 2021",
     company: "Civil Engineering Department of Hong Kong",
-  },
-  {
-    title: "Part-time - Website Developer",
-    descriptions: [
-      "Refined the website from WordPress, customizing own theme",
-      "planning and following on schedule.",
-      "Created comparer that compares images using JavaScript and HTML / CSS.",
-      "Got the hang of completing tasks and working with team.",
-    ],
-    time: " December 2020 - February 2021",
-    company: "Zeroot",
   },
 ];
 module.exports = Experience;
