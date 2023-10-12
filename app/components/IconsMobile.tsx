@@ -1,4 +1,10 @@
-import { BsTwitter, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import {
+  BsTwitter,
+  BsGithub,
+  BsInstagram,
+  BsLinkedin,
+  BsWhatsapp,
+} from "react-icons/bs";
 import { MdContactPage } from "react-icons/md";
 export default function IconsMobile() {
   return (
@@ -39,6 +45,13 @@ export default function IconsMobile() {
         <MdContactPage
           size="30"
           className="inline-block text-cyan hover:text-cyan-dark mx-2 hover:-translate-y-1"
+        />
+      </a>
+      <a href="https://wa.me/64909653" target="_blank">
+        <BsWhatsapp
+          size="25"
+          className="inline-block text-cyan hover:text-cyan-dark mx-2 hover:-translate-y-1"
+          title="Phone and WhatsApp number: 64909653"
         />
       </a>
     </div>

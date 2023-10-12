@@ -3,6 +3,7 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Icons from "./components/Icons";
 import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 import Seperator from "./components/Seperator";
 
 export default function Home() {
@@ -16,6 +17,8 @@ export default function Home() {
       <Education />
       <Seperator id="projects" text="Projects" />
       <Projects />
+      <Seperator id="skills" text="Skills" />
+      <Skills />
     </main>
   );
 }
