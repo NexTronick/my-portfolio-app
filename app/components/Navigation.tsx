@@ -91,6 +91,11 @@ export default function Navigation({ font_lobster_two = "" }) {
                       Projects
                     </Link>
                   </li>
+                  <li className="hover:text-cyan-dark">
+                    <Link href="#skills" onClick={toggleNavBar}>
+                      Skills
+                    </Link>
+                  </li>
                   {/* <li className="hover:text-cyan-dark">
                     <Link href="#contact" onClick={toggleNavBar}>
                       Contact
@@ -103,7 +108,7 @@ export default function Navigation({ font_lobster_two = "" }) {
                     }
                   >
                     <Link
-                      href="/resume_2.0.pdf"
+                      href="/Natraj Niranjan Padwani Resume.pdf"
                       target="_blank"
                       onClick={toggleNavBar}
                     >

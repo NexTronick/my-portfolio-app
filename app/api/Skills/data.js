@@ -12,5 +12,20 @@ const Skills = {
     "Hindi (Native)",
     "Shindi (Native)",
   ],
+  technical: [
+    "Full Stack Development(MERN stack)",
+    "Software and Mobile Development (.NET)",
+    "Networking and Databases (cisco cert, SQL, Mongoose, ORM)",
+    "Data Structure & Algorithm",
+    "Microsoft Office (Word, Excel, PowerPoint, etc)",
+  ],
+  soft: [
+    "Effective Communication",
+    "Strong Teamwork skills",
+    "Problem - solving",
+    "Time maangement",
+    "Creativity",
+    "Critical Thinking",
+  ],
 };
 module.exports = Skills;

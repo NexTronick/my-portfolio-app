@@ -60,7 +60,7 @@ export default function Icons() {
         <a href="https://wa.me/64909653" target="_blank" className="max-h-10">
           <BsWhatsapp
             size="25"
-            className="text-cyan hover:text-cyan-dark mt-10 mb-4 hover:-translate-y-1"
+            className="text-cyan hover:text-cyan-dark mt-10 ml-1 mb-4 hover:-translate-y-1"
             title="Phone and WhatsApp number: 64909653"
           />
         </a>

@@ -1,52 +1,58 @@
 const Experience = [
   {
-    title: "CTO",
+    title: "Full-Stack Web development Teacher",
     descriptions: [
-      "Conducting technology evaluations and made recommendations for adopting new tools and platforms for start up.",
-      "Implementing best practices and standards for software development, quality assurance, and data management.",
+      "Teaching (working adult) students with no knowledge of programmingbasics of website development.",
+      "Students attend online classes in which they learn real usecase scenarioof codes, do coding tasks for topics include Javascript, JQuery, AJAX and more.",
     ],
-    time: "July 2023 - Present",
-    company: "Zeroot",
+    time: "2023",
+    company: "Xccelerate",
   },
   {
-    title: "Website Developer (Part-time)",
+    title: "Full-Stack Web Developer",
     descriptions: [
-      "Developing website using React Framework with Tailwindcss.",
-      "Implementing robust and responsive web design optimized for user experience.",
+      "Full-stack Developer experienced in MERN stack with expertise in MaterialUI and efficient data manipulation using lodash and axios.",
+      "Skilled in mongoose for seamless interaction with MongoDB databases,collaborating with cross-functional teams to deliver scalable softwaresolutions.",
     ],
-    time: "June 2023 - Present",
-    company: "Shadani",
+    time: "2023",
+    company: "Shadani Import & export",
   },
   {
-    title: "Teacher (Part-time)",
+    title: "STEM Teacher",
     descriptions: [
-      "Taught Robot coding and Science to students aged 4-12, utilizing Artec Blocks and Arduino boards for sensor control.",
-      "Covered kindergartens to primary schools.",
+      "Taught Robot coding and Science to students aged 4-12, utilizing ArtecBlocks and Arduino boards for sensor control.",
+      "Students learn to build games with characters as well (similar to scratch).",
     ],
-    time: "June 2022 - Present",
+    time: "2022",
     company: "ActiveKids",
   },
   {
-    title: "Software Engineer (Part-time)",
+    title: "Software Engineer",
     descriptions: [
-      "To develop metaverse meeting room.",
-      "Meeting room using Unity Engine.",
-      "Developed whiteboard functionalities such as eraser & pen.",
-      "Developed meeting room with Multiplayer.",
+      "Developed metaverse meeting room with Unity Engine, including whiteboard functionalities.",
+      "Implemented multiplayer for collaborative meetings",
     ],
-    time: "June 2022 - August 2022",
+    time: "2022",
     company: "Technet",
   },
   {
-    title: "Website Maintenance and Development (Internship)",
+    title: "CEDD of Hong Kong (Website Maintenance and Development Intern)",
     descriptions: [
       "Developed Customer Survey, using Laravel Framework",
       "Grasped the knowledge of JXLS library in Java programming language for creating excel template.",
-      "Did an automated validation test on customer survey.",
-      "Worked alone with supervision and completed tasks on time.",
+      "Automated validation test on website & completed tasks on time.",
     ],
-    time: "July 2021 - August 2021",
+    time: "2021",
     company: "Civil Engineering Department of Hong Kong",
+  },
+  {
+    title: "STEM Instructor",
+    descriptions: [
+      "Teaching childern from age 4 -13 coding mods and robotics in Roblox, Minecraft and lego blocks.",
+      "Taught students coding using Code Kingdom (block coding). Learnt to explains things thoroughly.",
+    ],
+    time: "2020",
+    company: "STEMex",
   },
 ];
 module.exports = Experience;
