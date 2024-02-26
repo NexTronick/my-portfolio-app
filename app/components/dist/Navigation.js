@@ -39,7 +39,7 @@ function Navigation(_a) {
                                     React.createElement(link_1["default"], { href: "#skills", onClick: toggleNavBar }, "Skills")),
                                 React.createElement("li", { className: "text-cyan border-cyan-dark border-solid border-2 hover:border-dotted hover:text-cyan-dark text-lg px-2 pl-2 " +
                                         (navbar ? "inline-block" : "") },
-                                    React.createElement(link_1["default"], { href: "/Natraj Niranjan Padwani Resume.pdf", target: "_blank", onClick: toggleNavBar }, "Resume")),
+                                    React.createElement(link_1["default"], { href: "/resume/Natraj Niranjan Padwani Resume.pdf", target: "_blank", onClick: toggleNavBar }, "Resume")),
                                 !navbar ? ("") : (React.createElement("li", { className: "" },
                                     React.createElement(IconsMobile_1["default"], null)))))))))));
 }

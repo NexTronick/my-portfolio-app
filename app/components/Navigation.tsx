@@ -108,7 +108,7 @@ export default function Navigation({ font_lobster_two = "" }) {
                     }
                   >
                     <Link
-                      href="/Natraj Niranjan Padwani Resume.pdf"
+                      href="/resume/Natraj Niranjan Padwani Resume.pdf"
                       target="_blank"
                       onClick={toggleNavBar}
                     >
