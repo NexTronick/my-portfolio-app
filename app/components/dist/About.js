@@ -16,19 +16,15 @@ function About() {
                 React.createElement("div", { className: "absolute bottom-0 left-0 right-0 top-0 h-72 w-full object-cover md:h-full md:w-72 overflow-hidden bg-gradient-to-r from-gray via-cyan to-cyan-dark opacity-0 transition duration-300 ease-in-out hover:opacity-70" })),
             React.createElement("div", { className: "p-8", id: "text-div" },
                 React.createElement("h1", { className: "text-4xl text-cyan" }, "Natraj Niranjan Padwani"),
-                React.createElement("h2", { className: "text-xl" }, "Software Engineer & Web Developer"),
+                React.createElement("h2", { className: "text-xl" }, "Software Engineer"),
                 React.createElement("br", null),
                 React.createElement("p", null,
-                    "I am a ",
-                    React.createElement("span", { className: "text-cyan-dark" }, "fresh graduate"),
-                    " of BSC (Hons) Information Communications and Technology. Inspiring to be",
+                    "An Software Engineer that develops mobile/web applications. Currently working as",
                     " ",
-                    "Software Engineer and Web Developer . I develop",
+                    React.createElement("span", { className: "text-cyan-dark" }, "Full Stack Web Developer"),
+                    " for an start up company to lead their development. Hobbies are to",
                     " ",
-                    React.createElement("span", { className: "text-cyan-dark" }, "Web & Mobile Applications"),
-                    " as projects for school or personal projects. I love",
-                    " ",
-                    React.createElement("span", { className: "text-cyan-dark" }, "challenges and solving problems"),
-                    ". In spare time, exploring computer technology and learning new programming languages and frameworks.")))));
+                    React.createElement("span", { className: "text-cyan-dark" }, "learn, improve, and grow"),
+                    " as developer or an human being. In spare time, developing fun projects and exploring computer technology to keep learning new programming languages and frameworks.")))));
 }
 exports["default"] = About;

@@ -26,19 +26,17 @@ export default function About() {
         </div>
         <div className="p-8" id="text-div">
           <h1 className="text-4xl text-cyan">Natraj Niranjan Padwani</h1>
-          <h2 className="text-xl">Software Engineer & Web Developer</h2>
+          <h2 className="text-xl">Software Engineer</h2>
           <br />
           <p>
-            I am a <span className="text-cyan-dark">fresh graduate</span> of BSC
-            (Hons) Information Communications and Technology. Inspiring to be{" "}
-            Software Engineer and Web Developer . I develop{" "}
-            <span className="text-cyan-dark">Web & Mobile Applications</span> as
-            projects for school or personal projects. I love{" "}
-            <span className="text-cyan-dark">
-              challenges and solving problems
-            </span>
-            . In spare time, exploring computer technology and learning new
-            programming languages and frameworks.
+            An Software Engineer that develops mobile/web applications.
+            Currently working as{" "}
+            <span className="text-cyan-dark">Full Stack Web Developer</span> for
+            an start up company to lead their development. Hobbies are to{" "}
+            <span className="text-cyan-dark">learn, improve, and grow</span> as
+            developer or an human being. In spare time, developing fun projects
+            and exploring computer technology to keep learning new programming
+            languages and frameworks.
           </p>
         </div>
       </div>
